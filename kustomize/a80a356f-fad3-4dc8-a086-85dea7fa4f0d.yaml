@@ -1,0 +1,9 @@
+apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
+kind: PubSubTopic
+metadata:
+  annotations:
+    cnrm.cloud.google.com/project-id: your-gcp-project-id
+  labels:
+    LABEL_KEY: PubSubTopic-label
+    LABEL_ID: a80a356f-fad3-4dc8-a086-85dea7fa4f0d
+  name: hello-world
