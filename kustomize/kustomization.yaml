@@ -2,4 +2,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - sample.yaml
-  - 692ec816-7b6c-4eb8-a801-146b54a3bdd8.yaml
+  
