@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - sample.yaml
   - 0e3ac2da-fb27-45c0-93f0-0d897c700360.yaml
+  - 08401433-8eb8-40da-8cdd-ef71af3fbf03.yaml
