@@ -1,0 +1,11 @@
+apiVersion: storage.gcp.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  name: my-storage-bucket-6d6ebc9c-28fe-4a4b-89a6-3a5140d8d3e5
+  labels:
+    docs.crossplane.io/example: provider-gcp
+spec:
+  forProvider:
+    location: CA
+  providerConfigRef:
+    name: default
